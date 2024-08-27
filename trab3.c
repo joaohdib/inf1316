@@ -1,6 +1,7 @@
 #include <stdio.h> 
   
 void print_file(const char* filename) 
+
 { 
     int ch; 
     FILE* file = fopen(filename, "r"); 
